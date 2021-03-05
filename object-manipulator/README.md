@@ -35,10 +35,9 @@ $ npm install
 ```
 
 ## Running the app
-
-# watch mode
+```bash
 $ npm run start:dev
-
+```
 ## endpoints
  http://localhost:3000/object-manipulator
  
