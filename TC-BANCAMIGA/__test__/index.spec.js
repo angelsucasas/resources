@@ -1,0 +1,6 @@
+require('./completaciondatosclientenatural.spec.js')
+//require('./TC-0002.js')
+//require('./TC-0003.js')
+//require('./TC-0004.js')
+//require('./TC-0005.js')
+//require('./TC-0006.js')

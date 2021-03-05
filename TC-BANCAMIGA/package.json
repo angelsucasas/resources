@@ -1,0 +1,27 @@
+{
+  "name": "practica-4",
+  "version": "1.0.0",
+  "description": "Proyecto de practica de pruebas unitarias DSW",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielOrtegaUCAB/practica-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielOrtegaUCAB/practica-4/issues"
+  },
+  "homepage": "https://github.com/GabrielOrtegaUCAB/practica-4#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chromedriver": "^84.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

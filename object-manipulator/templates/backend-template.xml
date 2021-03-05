@@ -1,0 +1,26 @@
+<objects>
+    <book>
+        <title>Domain-driven design</title>
+    </book>
+    <car>
+        <name>hola</name>
+        <xd>test</xd>
+    </car>
+    <hol3>
+        <pedro>perez</pedro>
+        <juancho>juan</juancho>
+    </hol3>
+    <sucasas>
+        <mario>peroza</mario>
+        <luigi>juana</luigi>
+    </sucasas>
+    <key>
+        <hola2>hello2</hola2>
+    </key>
+    <demostracion>
+        <hola>mundo</hola>
+    </demostracion>
+    <fecha>
+        <viernes>junio</viernes>
+    </fecha>
+</objects>

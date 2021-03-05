@@ -1,0 +1,1514 @@
+{
+  "id": "f6832578-778c-47f9-8b11-bb6bedceeedf",
+  "version": "2.0",
+  "name": "Suite de pruebas Bancamiga",
+  "url": "https://autogestion-bancamiga-test.herokuapp.com",
+  "tests": [{
+    "id": "3cfbf6ff-e3fd-4b43-b2b6-bd18a8251c95",
+    "name": "Inicio de Sesion - valido",
+    "commands": [{
+      "id": "e345f025-2b84-410a-9f45-fad32ee58cab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2046c4ea-d27a-4ba4-8c88-707be9479c00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "060e8802-2d97-4e54-869f-8befda87cde9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d4cae3-88f2-4898-8732-0970e75c64ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "angel.alejandro08@hotmail.com"
+    }, {
+      "id": "67a92342-05ca-4662-9e01-c6cc863ccaf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4)",
+      "targets": [
+        ["css=.form-group:nth-child(4)", "css:finder"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1c5e08-c00d-43de-a5e6-ccc7fe9bc9c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59da2f7-02a4-40d9-8ef7-80e562895991",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "angel!?*1"
+    }, {
+      "id": "e392c623-084a-4a5f-97ec-e8b88a03655f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c9534da0-7c84-4011-b33f-63042a4d4a63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon",
+      "targets": [
+        ["css=.icon", "css:finder"],
+        ["xpath=//a[@id='close_session']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7437526b-e735-46fa-b720-d16d2ee7321d",
+    "name": "Inicio de Sesion - invalido",
+    "commands": [{
+      "id": "746208c7-3fc5-4d44-bce6-1f8b88769d5d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96742333-abd2-4a26-8442-6cd10f12e9d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72570650-cfdb-4254-809a-fd0acf734942",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "886e6e56-c088-4852-a206-900809eaf33c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "angel.alejandro08@hotmail.com"
+    }, {
+      "id": "6698427e-42f9-470c-8d09-5d232c7a2c9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "75dac4d7-a945-4a88-a957-6afd8879e0f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=form > #clear_localStorage", "css:finder"],
+        ["xpath=//input[@id='clear_localStorage']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61669984-01c1-41d9-b9b1-d6884241574c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li",
+      "targets": [
+        ["css=li", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'El correo electrónico o la contraseña es incorrecto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a071eeb-8b2e-46f7-ab48-634cff8b7774",
+      "comment": "",
+      "command": "click",
+      "target": "css=li",
+      "targets": [
+        ["css=li", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'El correo electrónico o la contraseña es incorrecto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c57a81a9-1804-4082-902d-b1556758eb6b",
+    "name": "Inicio de Sesion - correo invalido",
+    "commands": [{
+      "id": "ac08a1b2-421b-4a7b-b0ba-0a5da74e5d95",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52c99cb1-7035-4503-9c9b-12841324efb9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58faa68f-3d22-4cb9-b92f-fce156ce33da",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b72ab3-f68b-4dca-a51e-f6cb2483f8de",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35588a65-639e-4195-9c3f-14c03e994ff5",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "angel.alejandro08gmail.com"
+    }, {
+      "id": "f0749919-c353-4d21-a041-d17cf7268380",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abcde"
+    }, {
+      "id": "9466bbc9-59ea-42ed-b8fc-f6a4bc61f186",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=form > #clear_localStorage", "css:finder"],
+        ["xpath=//input[@id='clear_localStorage']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8a72c83-f154-4a44-8081-2ec2508544fb",
+    "name": "P0120-141 – 002 [exitoso]",
+    "commands": []
+  }, {
+    "id": "fb8151be-befc-4826-ac9b-1b3a4ab89e90",
+    "name": "Solicitud de producto [Caso exitoso]",
+    "commands": [{
+      "id": "f3e668f6-be62-4178-823d-700319b4c10f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8522cb0-e645-4787-960a-8eaa4a450195",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6be6007c-0a20-412c-beb2-3d2637a2ae02",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9dcc7a0-38a9-46b3-ba0e-1528c76c0e56",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "angel.alejandro08@hotmail.com"
+    }, {
+      "id": "1b5e1b8a-a890-4c33-ac7a-a0cc0786d78d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "angel!?*1"
+    }, {
+      "id": "13223ab7-11e8-42d8-a328-b52adca487b2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f06d114b-3d05-439d-89b6-e3b289ff458c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SOLICITAR PRODUCTO",
+      "targets": [
+        ["linkText=SOLICITAR PRODUCTO", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'SOLICITAR PRODUCTO')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://autogestion-bancamiga-test.herokuapp.com/requests/new')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SOLICITAR PRODUCTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9154cf8-610d-48ac-9308-3ae837f24f21",
+      "comment": "",
+      "command": "click",
+      "target": "id=request_product_service_type_id",
+      "targets": [
+        ["id=request_product_service_type_id", "id"],
+        ["name=request[product_service_type_id]", "name"],
+        ["css=#request_product_service_type_id", "css:finder"],
+        ["xpath=//select[@id='request_product_service_type_id']", "xpath:attributes"],
+        ["xpath=//form[@id='new_request']/fieldset/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nProductos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6dd0038-7924-4455-8150-0e52d67e2a16",
+      "comment": "",
+      "command": "select",
+      "target": "id=request_product_service_type_id",
+      "targets": [],
+      "value": "label=Productos"
+    }, {
+      "id": "5a0ab334-7d80-4c8b-8b88-7add0e6aaebc",
+      "comment": "",
+      "command": "click",
+      "target": "id=request_product_service_type_id",
+      "targets": [
+        ["id=request_product_service_type_id", "id"],
+        ["name=request[product_service_type_id]", "name"],
+        ["css=#request_product_service_type_id", "css:finder"],
+        ["xpath=//select[@id='request_product_service_type_id']", "xpath:attributes"],
+        ["xpath=//form[@id='new_request']/fieldset/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nProductos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd6597d-3cff-4e67-b10e-514214ac2044",
+      "comment": "",
+      "command": "click",
+      "target": "id=request_product_id",
+      "targets": [
+        ["id=request_product_id", "id"],
+        ["name=request[product_id]", "name"],
+        ["css=#request_product_id", "css:finder"],
+        ["xpath=//select[@id='request_product_id']", "xpath:attributes"],
+        ["xpath=//div[@id='product_type_selector']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione un producto -\nCuenta Corriente Virtual Amiga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d20386-26d3-4098-bf25-b3ec76e997e8",
+      "comment": "",
+      "command": "select",
+      "target": "id=request_product_id",
+      "targets": [],
+      "value": "label=Cuenta Corriente Virtual Amiga"
+    }, {
+      "id": "b3c4c7f4-0582-4bd1-a213-2468d9b147a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=request_product_id",
+      "targets": [
+        ["id=request_product_id", "id"],
+        ["name=request[product_id]", "name"],
+        ["css=#request_product_id", "css:finder"],
+        ["xpath=//select[@id='request_product_id']", "xpath:attributes"],
+        ["xpath=//div[@id='product_type_selector']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione un producto -\nCuenta Corriente Virtual Amiga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94d4bf0c-e65d-4350-932f-2554307f3ae5",
+      "comment": "",
+      "command": "click",
+      "target": "name=request[val_firm_type]",
+      "targets": [
+        ["name=request[val_firm_type]", "name"],
+        ["css=.form-group > #request_val_firm_type", "css:finder"],
+        ["xpath=//select[@id='request_val_firm_type']", "xpath:attributes"],
+        ["xpath=//div[@id='request_val_firm_type']/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nIndistinta\nIndividual\nMancomunada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f244a14-9b0d-45d2-9ee3-562d5af47c0b",
+      "comment": "",
+      "command": "select",
+      "target": "name=request[val_firm_type]",
+      "targets": [],
+      "value": "label=Individual"
+    }, {
+      "id": "d2d95e22-444a-483c-accb-18eec197111f",
+      "comment": "",
+      "command": "click",
+      "target": "name=request[val_firm_type]",
+      "targets": [
+        ["name=request[val_firm_type]", "name"],
+        ["css=.form-group > #request_val_firm_type", "css:finder"],
+        ["xpath=//select[@id='request_val_firm_type']", "xpath:attributes"],
+        ["xpath=//div[@id='request_val_firm_type']/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nIndistinta\nIndividual\nMancomunada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d15b7f22-3007-42d1-ac67-36a03d0a7043",
+      "comment": "",
+      "command": "click",
+      "target": "id=send_id",
+      "targets": [
+        ["id=send_id", "id"],
+        ["name=commit", "name"],
+        ["css=#send_id", "css:finder"],
+        ["xpath=//input[@id='send_id']", "xpath:attributes"],
+        ["xpath=//form[@id='new_request']/fieldset/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a8d05f-1204-4c57-a57c-a6284bae52e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=close_session",
+      "targets": [
+        ["id=close_session", "id"],
+        ["css=#close_session", "css:finder"],
+        ["xpath=//a[@id='close_session']", "xpath:attributes"],
+        ["xpath=//div[@id='menuMobile']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ca330912-5374-4eb3-bb63-6f6c07ba538f",
+    "name": "Registro informacion cliente juridico",
+    "commands": [{
+      "id": "cd3114f0-7456-4f00-a1be-ba03ef37cee2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5df8a613-3028-4914-afad-c16fbf7074c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc623fb0-f48a-46c0-8021-7baa21667777",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bd5cae-f6bc-400e-811f-f091f0a504c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "dianatrujillorey@gmail.com"
+    }, {
+      "id": "285e76a1-7a48-4a8e-afcd-9c1d36ae9815",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "angel!?*1"
+    }, {
+      "id": "6ab4da27-c59e-4b75-b285-3678744b8400",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "584f17af-0644-409e-aa9f-adf43311cf52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-menu-item:nth-child(1) .site-menu-title",
+      "targets": [
+        ["css=.site-menu-item:nth-child(1) .site-menu-title", "css:finder"],
+        ["xpath=//div/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1652f934-6250-4a41-9338-255e9c029a7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EDITAR DATOS",
+      "targets": [
+        ["linkText=EDITAR DATOS", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'EDITAR DATOS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/juridical_people/60/ask_otp')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EDITAR DATOS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2675c88-fe30-4578-93af-75ce7b2fba65",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_identification_type_id",
+      "targets": [
+        ["id=juridical_person_val_identification_type_id", "id"],
+        ["name=juridical_person[val_identification_type_id]", "name"],
+        ["css=#juridical_person_val_identification_type_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_identification_type_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nREGISTRO DE INFORMACIÓN FISCAL\nRIF EN FORMACION\nRIF VIRTUAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8ce2dc-4e00-44c8-8a23-43163200611d",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_identification_type_id",
+      "targets": [
+        ["id=juridical_person_val_identification_type_id", "id"],
+        ["name=juridical_person[val_identification_type_id]", "name"],
+        ["css=#juridical_person_val_identification_type_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_identification_type_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nREGISTRO DE INFORMACIÓN FISCAL\nRIF EN FORMACION\nRIF VIRTUAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b3288e-6d2a-4600-80aa-737febee30b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_identification_expedition_date",
+      "targets": [
+        ["id=juridical_person_identification_expedition_date", "id"],
+        ["name=juridical_person[identification_expedition_date]", "name"],
+        ["css=#juridical_person_identification_expedition_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_identification_expedition_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadd94c5-7802-4578-a987-d7cd46dea164",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6567a292-be07-4474-adad-45f71b4acada",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_identification_expiration_date",
+      "targets": [
+        ["id=juridical_person_identification_expiration_date", "id"],
+        ["name=juridical_person[identification_expiration_date]", "name"],
+        ["css=#juridical_person_identification_expiration_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_identification_expiration_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2393d381-8eb3-48f0-96d0-f2ccda3edccd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=15",
+      "targets": [
+        ["linkText=15", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'15')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//tr[3]/td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'15')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd7fa6b-beb6-4b2a-ac61-635b74c11d91",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_country_of_identification_document_id",
+      "targets": [
+        ["id=juridical_person_country_of_identification_document_id", "id"],
+        ["name=juridical_person[country_of_identification_document_id]", "name"],
+        ["css=#juridical_person_country_of_identification_document_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_country_of_identification_document_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nAFGANISTAN\nALBANIA\nALEMANIA\nALGERIA\nANDORRA\nANGOLA\nANGUILA\nANTARTIDA\nANTIGUA Y BARBUDA\nANTILLAS HOLANDESAS (BONAIRE- SAN MARTIN- CURAZAO)\nARABIA SAUDITA\nARGENTINA\nARMENIA\nARUBA\nAUSTRALIA\nAUSTRIA\nAZERBAIJAN\nBAHAMAS\nBAHRAIN\nBANGLADESH\nBARBADOS\nBELARUSIA\nBELGICA\nBELICE\nBENIN\nBERMUDA\nBHUTAN\nBOLIVIA\nBOSNIA Y HERZEGOVINA\nBOTSWANA\nBOUVET ISLAND\nBRASIL\nBRUNEI\nBULGARIA\nBURKINA FASO\nBURUNDI\nCABO VERDE\nCAMBOYA\nCAMERUN\nCANADA\nCHAD\nCHILE\nCHINA\nCHIPRE\nCHRISTMAS ISLAND\nCOLOMBIA\nCOMORES\nCONGO\nCOREA DEL NORTE\nCOREA DEL SUR\nCOSTA DE MARFIL\nCOSTA RICA\nCROACIA\nCUBA\nDINAMARCA\nDJBOUTI\nDOMINICA\nECUADOR\nEGIPTO\nEL SALVADOR\nEMIRATOS ARABES UNIDOS\nERITREA\nESLOVAKIA\nESLOVENIA\nESPAÑA\nESTADOS UNIDOS DE AMERICA (USA)\nESTONIA\nETIOPIA\nFIJI\nFILIPINAS\nFINLANDIA\nFRANCIA\nGABON\nGAMBIA\nGEORGIA\nGEORGIA DEL SUR Y LAS ISLAS DEL SUR DE SANWICH\nGHANA\nGIBRALTAR\nGRANADA\nGRECIA\nGROENLANDIA\nGUADALUPE\nGUAM\nGUATEMALA\nGUERNSEY . C.I.\nGUINEA\nGUINEA BISSAU\nGUINEA ECUATORIAL\nGUYANA\nGUYANA FRANCESA\nHAITI\nHOLANDA\nHONDURAS\nHONG KONG\nHUNGRIA\nINDIA\nINDONESIA\nIRAK\nIRAN\nIRLANDA\nISLA DE HOMBRES\nISLANDIA\nISLAS CAIMAN\nISLAS COCOS\nISLAS COOK\nISLAS FAEROE\nISLAS MALVINAS\nISLAS MARIANAS DEL NORTE\nISLAS MARSHALL\nISLAS OIDAS DE MCDONALD\nISLAS PERIFERICAS DE MENOR IMPORTANCIA DE USA\nISLAS SALOMON\nISLAS SVALBARD Y JAN MAYEN\nISLAS VIRGENES (AMERICANAS)\nISLAS VIRGENES (BRITANICAS)\nISRAEL\nITALIA\nJAMAICA\nJAPON\nJERSEY C.I.\nJORDANIA\nKAZAJSTAN\nKENIA\nKIRGUIZISTAN\nKIRIBATI\nKUWAIT\nLAOS\nLATVIA\nLESOTHO\nLIBANO\nLIBERIA\nLIBIA\nLIECHTESTEIN\nLITUANIA\nLUXEMBURGO\nMACAO\nMACEDONIA\nMADAGASCAR\nMALASIA\nMALAWI\nMALDIVAS\nMALI\nMALTA\nMARRUECOS\nMARTINICA\nMAURICIOS\nMAURITANIA\nMAYOTE\nMEXICO\nMICRONESIA\nMOLDOVA\nMONACO\nMONGOLIA\nMONTSERRAT\nMOZAMBIQUE\nMYANMAR\nNAMIBIA\nNAURU\nNEPAL\nNICARAGUA\nNIGER\nNIGERIA\nNIUE\nNORFOLK ISLAND\nNORUEGA\nNUEVA CALEDONIA\nNUEVA ZELANDIA\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPAPUA NUEVA GUINEA\nPARAGUAY\nPERU\nPITCAIRN ISLANDS\nPOLINESIA FRANCESA\nPOLONIA\nPORTUGAL\nPUERTO RICO\nQATAR\nREINO UNIDO (INGLATERRA)\nREPUBLICA CENTRAL DE AFRICA\nREPUBLICA CHECA\nREPUBLICA DEMOCRATICA DEL CONGO\nREPUBLICA DOMINICANA\nREUNION\nRUANDA\nRUMANIA\nRUSIA (FEDERACION RUSA)\nSAHARA OCCIDENTAL\nSAMOA AMERICANA\nSAMOA OCCIDENTAL\nSAN CRISTOBAL Y NEVIS\nSAN MARINO\nSAN PEDRO Y MIQUELON\nSANTA ELENA\nSANTA LUCIA\nSANTA SEDE (EL VATICANO)\nSAN TOME Y PRINCIPE\nSAN VICENTE Y GRANADINAS\nSENEGAL\nSEYCHELLES\nSIERRA LEONA\nSINGAPUR\nSIRIA\nSOMALIA\nSRI LANKA\nSUDAFRICA\nSUDAN\nSUECIA\nSUIZA\nSURINAM\nSWAZILANDIA\nTAILANDIA\nTAIWAN\nTANZANIA\nTERRITORIO BRITANICO DEL OCEANO INDIO\nTERRITORIO PALESTINO OCUPADO\nTERRITORIOS MERIDIONALES FRANCESES\nTIMOR ORIENTAL\nTIYIKISTAN\nTOGO\nTOKELAU\nTONGA\nTRINIDAD Y TOBAGO\nTUNEZ\nTURCOS Y CAICOS\nTURKMENISTAN\nTURQUIA\nTUVALU\nUCRANIA\nUGANDA\nURUGUAY\nUZBEKISTAN\nVANUATU\nVENEZUELA\nVIETNAM\nWALLIS Y FUTUNA\nYEMEN\nYUGOSLAVIA\nZAIRE\nZAMBIA\nZIMBAWE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29e4036-f02b-494a-a90a-cc24e1d4f824",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_country_of_identification_document_id",
+      "targets": [
+        ["id=juridical_person_country_of_identification_document_id", "id"],
+        ["name=juridical_person[country_of_identification_document_id]", "name"],
+        ["css=#juridical_person_country_of_identification_document_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_country_of_identification_document_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nAFGANISTAN\nALBANIA\nALEMANIA\nALGERIA\nANDORRA\nANGOLA\nANGUILA\nANTARTIDA\nANTIGUA Y BARBUDA\nANTILLAS HOLANDESAS (BONAIRE- SAN MARTIN- CURAZAO)\nARABIA SAUDITA\nARGENTINA\nARMENIA\nARUBA\nAUSTRALIA\nAUSTRIA\nAZERBAIJAN\nBAHAMAS\nBAHRAIN\nBANGLADESH\nBARBADOS\nBELARUSIA\nBELGICA\nBELICE\nBENIN\nBERMUDA\nBHUTAN\nBOLIVIA\nBOSNIA Y HERZEGOVINA\nBOTSWANA\nBOUVET ISLAND\nBRASIL\nBRUNEI\nBULGARIA\nBURKINA FASO\nBURUNDI\nCABO VERDE\nCAMBOYA\nCAMERUN\nCANADA\nCHAD\nCHILE\nCHINA\nCHIPRE\nCHRISTMAS ISLAND\nCOLOMBIA\nCOMORES\nCONGO\nCOREA DEL NORTE\nCOREA DEL SUR\nCOSTA DE MARFIL\nCOSTA RICA\nCROACIA\nCUBA\nDINAMARCA\nDJBOUTI\nDOMINICA\nECUADOR\nEGIPTO\nEL SALVADOR\nEMIRATOS ARABES UNIDOS\nERITREA\nESLOVAKIA\nESLOVENIA\nESPAÑA\nESTADOS UNIDOS DE AMERICA (USA)\nESTONIA\nETIOPIA\nFIJI\nFILIPINAS\nFINLANDIA\nFRANCIA\nGABON\nGAMBIA\nGEORGIA\nGEORGIA DEL SUR Y LAS ISLAS DEL SUR DE SANWICH\nGHANA\nGIBRALTAR\nGRANADA\nGRECIA\nGROENLANDIA\nGUADALUPE\nGUAM\nGUATEMALA\nGUERNSEY . C.I.\nGUINEA\nGUINEA BISSAU\nGUINEA ECUATORIAL\nGUYANA\nGUYANA FRANCESA\nHAITI\nHOLANDA\nHONDURAS\nHONG KONG\nHUNGRIA\nINDIA\nINDONESIA\nIRAK\nIRAN\nIRLANDA\nISLA DE HOMBRES\nISLANDIA\nISLAS CAIMAN\nISLAS COCOS\nISLAS COOK\nISLAS FAEROE\nISLAS MALVINAS\nISLAS MARIANAS DEL NORTE\nISLAS MARSHALL\nISLAS OIDAS DE MCDONALD\nISLAS PERIFERICAS DE MENOR IMPORTANCIA DE USA\nISLAS SALOMON\nISLAS SVALBARD Y JAN MAYEN\nISLAS VIRGENES (AMERICANAS)\nISLAS VIRGENES (BRITANICAS)\nISRAEL\nITALIA\nJAMAICA\nJAPON\nJERSEY C.I.\nJORDANIA\nKAZAJSTAN\nKENIA\nKIRGUIZISTAN\nKIRIBATI\nKUWAIT\nLAOS\nLATVIA\nLESOTHO\nLIBANO\nLIBERIA\nLIBIA\nLIECHTESTEIN\nLITUANIA\nLUXEMBURGO\nMACAO\nMACEDONIA\nMADAGASCAR\nMALASIA\nMALAWI\nMALDIVAS\nMALI\nMALTA\nMARRUECOS\nMARTINICA\nMAURICIOS\nMAURITANIA\nMAYOTE\nMEXICO\nMICRONESIA\nMOLDOVA\nMONACO\nMONGOLIA\nMONTSERRAT\nMOZAMBIQUE\nMYANMAR\nNAMIBIA\nNAURU\nNEPAL\nNICARAGUA\nNIGER\nNIGERIA\nNIUE\nNORFOLK ISLAND\nNORUEGA\nNUEVA CALEDONIA\nNUEVA ZELANDIA\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPAPUA NUEVA GUINEA\nPARAGUAY\nPERU\nPITCAIRN ISLANDS\nPOLINESIA FRANCESA\nPOLONIA\nPORTUGAL\nPUERTO RICO\nQATAR\nREINO UNIDO (INGLATERRA)\nREPUBLICA CENTRAL DE AFRICA\nREPUBLICA CHECA\nREPUBLICA DEMOCRATICA DEL CONGO\nREPUBLICA DOMINICANA\nREUNION\nRUANDA\nRUMANIA\nRUSIA (FEDERACION RUSA)\nSAHARA OCCIDENTAL\nSAMOA AMERICANA\nSAMOA OCCIDENTAL\nSAN CRISTOBAL Y NEVIS\nSAN MARINO\nSAN PEDRO Y MIQUELON\nSANTA ELENA\nSANTA LUCIA\nSANTA SEDE (EL VATICANO)\nSAN TOME Y PRINCIPE\nSAN VICENTE Y GRANADINAS\nSENEGAL\nSEYCHELLES\nSIERRA LEONA\nSINGAPUR\nSIRIA\nSOMALIA\nSRI LANKA\nSUDAFRICA\nSUDAN\nSUECIA\nSUIZA\nSURINAM\nSWAZILANDIA\nTAILANDIA\nTAIWAN\nTANZANIA\nTERRITORIO BRITANICO DEL OCEANO INDIO\nTERRITORIO PALESTINO OCUPADO\nTERRITORIOS MERIDIONALES FRANCESES\nTIMOR ORIENTAL\nTIYIKISTAN\nTOGO\nTOKELAU\nTONGA\nTRINIDAD Y TOBAGO\nTUNEZ\nTURCOS Y CAICOS\nTURKMENISTAN\nTURQUIA\nTUVALU\nUCRANIA\nUGANDA\nURUGUAY\nUZBEKISTAN\nVANUATU\nVENEZUELA\nVIETNAM\nWALLIS Y FUTUNA\nYEMEN\nYUGOSLAVIA\nZAIRE\nZAMBIA\nZIMBAWE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c5a46f4-8590-4668-ad29-4aa6d5a1db9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_name",
+      "targets": [
+        ["id=juridical_person_name", "id"],
+        ["name=juridical_person[name]", "name"],
+        ["css=#juridical_person_name", "css:finder"],
+        ["xpath=//input[@id='juridical_person_name']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1a488e-8041-4860-8023-1cf4ee8582d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_name",
+      "targets": [
+        ["id=juridical_person_name", "id"],
+        ["name=juridical_person[name]", "name"],
+        ["css=#juridical_person_name", "css:finder"],
+        ["xpath=//input[@id='juridical_person_name']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+    }, {
+      "id": "3758670b-b87c-4e0a-a3ce-f89903445285",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_group_name",
+      "targets": [
+        ["id=juridical_person_group_name", "id"],
+        ["name=juridical_person[group_name]", "name"],
+        ["css=#juridical_person_group_name", "css:finder"],
+        ["xpath=//input[@id='juridical_person_group_name']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+    }, {
+      "id": "f6f0d573-fb3a-4c60-89f8-fa283ddd3d51",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_customer_classification_id",
+      "targets": [
+        ["id=juridical_person_val_customer_classification_id", "id"],
+        ["name=juridical_person[val_customer_classification_id]", "name"],
+        ["css=#juridical_person_val_customer_classification_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_customer_classification_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[4]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nEMPRESAS FILIALES\nEMPRESAS RELACIONADAS\nFIDECOMISO\nINST. FINANCIERA\nJURIDICO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60b01d4-3d29-4c93-bf36-0757612ca6d6",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_customer_classification_id",
+      "targets": [],
+      "value": "label=EMPRESAS FILIALES"
+    }, {
+      "id": "52f3d2ea-dfb7-4760-8072-4c3c66ec800d",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_customer_classification_id",
+      "targets": [
+        ["id=juridical_person_val_customer_classification_id", "id"],
+        ["name=juridical_person[val_customer_classification_id]", "name"],
+        ["css=#juridical_person_val_customer_classification_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_customer_classification_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[4]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nEMPRESAS FILIALES\nEMPRESAS RELACIONADAS\nFIDECOMISO\nINST. FINANCIERA\nJURIDICO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3bcc549-98c1-4f21-aa81-0f2b359ef161",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_commercial_scope_id",
+      "targets": [
+        ["id=juridical_person_val_commercial_scope_id", "id"],
+        ["name=juridical_person[val_commercial_scope_id]", "name"],
+        ["css=#juridical_person_val_commercial_scope_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_commercial_scope_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[5]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nEXPORTADOR\nIMPORTADOR\nIMPORTADOR/EXPORTADOR\nNO APLICA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "474960c5-dcdc-4a50-a1a7-558eb7d6aa2b",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_commercial_scope_id",
+      "targets": [],
+      "value": "label=EXPORTADOR"
+    }, {
+      "id": "429dc84a-6c74-4a44-8bdc-63ded170f535",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_commercial_scope_id",
+      "targets": [
+        ["id=juridical_person_val_commercial_scope_id", "id"],
+        ["name=juridical_person[val_commercial_scope_id]", "name"],
+        ["css=#juridical_person_val_commercial_scope_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_commercial_scope_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[5]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nEXPORTADOR\nIMPORTADOR\nIMPORTADOR/EXPORTADOR\nNO APLICA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a994e32e-bb52-4942-9ba5-51f1ffb1923c",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_geographical_scope_id",
+      "targets": [
+        ["id=juridical_person_val_geographical_scope_id", "id"],
+        ["name=juridical_person[val_geographical_scope_id]", "name"],
+        ["css=#juridical_person_val_geographical_scope_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_geographical_scope_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[5]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nINTERNACIONAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a7cdd8-8d2c-446e-abeb-7dd3e9f4158b",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_geographical_scope_id",
+      "targets": [],
+      "value": "label=INTERNACIONAL"
+    }, {
+      "id": "1f26d715-6955-420c-b8b6-f7094b5a9f7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_geographical_scope_id",
+      "targets": [
+        ["id=juridical_person_val_geographical_scope_id", "id"],
+        ["name=juridical_person[val_geographical_scope_id]", "name"],
+        ["css=#juridical_person_val_geographical_scope_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_geographical_scope_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[5]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nINTERNACIONAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7935962-be55-4217-b9b5-dae931ed3c6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_company_type_id",
+      "targets": [
+        ["id=juridical_person_val_company_type_id", "id"],
+        ["name=juridical_person[val_company_type_id]", "name"],
+        ["css=#juridical_person_val_company_type_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_company_type_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[6]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nASOCIACIÓN CIVIL\nCOMUNAS\nCONDOMINIO\nCONSTITUIDA\nCOOPERATIVA\nEMPRESA EN FORMACIÓN\nFIRMA PERSONAL\nGOBIERNO\nORGANIZACION NO GUBERNAMENTAL (ONG)\nPYME')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e07fbb-d670-41b3-a65d-7bb52764e5e3",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_company_type_id",
+      "targets": [],
+      "value": "label=PYME"
+    }, {
+      "id": "c696ff84-c82e-49de-a35e-34c0e9a58904",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_company_type_id",
+      "targets": [
+        ["id=juridical_person_val_company_type_id", "id"],
+        ["name=juridical_person[val_company_type_id]", "name"],
+        ["css=#juridical_person_val_company_type_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_company_type_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[6]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nASOCIACIÓN CIVIL\nCOMUNAS\nCONDOMINIO\nCONSTITUIDA\nCOOPERATIVA\nEMPRESA EN FORMACIÓN\nFIRMA PERSONAL\nGOBIERNO\nORGANIZACION NO GUBERNAMENTAL (ONG)\nPYME')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32bf7a84-1c84-42dd-8664-a0d5758b3354",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_country_incorporation_id",
+      "targets": [
+        ["id=juridical_person_country_incorporation_id", "id"],
+        ["name=juridical_person[country_incorporation_id]", "name"],
+        ["css=#juridical_person_country_incorporation_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_country_incorporation_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[6]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac21ba5d-f165-49ca-8265-9ed01e4fa371",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_country_incorporation_id",
+      "targets": [
+        ["id=juridical_person_country_incorporation_id", "id"],
+        ["name=juridical_person[country_incorporation_id]", "name"],
+        ["css=#juridical_person_country_incorporation_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_country_incorporation_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[6]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91531d25-7a89-4f1b-bf88-9b85eff37d2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_business_activity_id",
+      "targets": [
+        ["id=juridical_person_val_business_activity_id", "id"],
+        ["name=juridical_person[val_business_activity_id]", "name"],
+        ["css=#juridical_person_val_business_activity_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_business_activity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[7]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nACTIVIDAD NO BIEN ESPECIFICADAS\nAGRICOLA\nCOMERCIO AL POR MAYOR Y AL POR MENOR Y RESTAURANTES Y HOTELES\nCONSTRUCCION\nELECTRICIDAD, GAS Y AGUA\nESTABLECIMIENTOS FINANCIEROS, SEGUROS, BIENES INMUEBLES Y SERVICIOS TECNICOS Y PROFESIONALES (EXCEPTO LOS SOCIALES Y COMUNALES) ALQUILER Y ARRENDAMIEN\nEXPLOTACION DE MINAS Y CANTERAS\nINDUSTRIAS MANUFACTURERAS\nSERVICIOS COMUNALES, SOCIALES Y PERSONALES\nTRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d192b40-ef23-4b12-bbeb-23cc7f4917b9",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_business_activity_id",
+      "targets": [],
+      "value": "label=CONSTRUCCION"
+    }, {
+      "id": "640e1811-ab09-4171-8591-60bbe3f70414",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_business_activity_id",
+      "targets": [
+        ["id=juridical_person_val_business_activity_id", "id"],
+        ["name=juridical_person[val_business_activity_id]", "name"],
+        ["css=#juridical_person_val_business_activity_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_business_activity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[7]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nACTIVIDAD NO BIEN ESPECIFICADAS\nAGRICOLA\nCOMERCIO AL POR MAYOR Y AL POR MENOR Y RESTAURANTES Y HOTELES\nCONSTRUCCION\nELECTRICIDAD, GAS Y AGUA\nESTABLECIMIENTOS FINANCIEROS, SEGUROS, BIENES INMUEBLES Y SERVICIOS TECNICOS Y PROFESIONALES (EXCEPTO LOS SOCIALES Y COMUNALES) ALQUILER Y ARRENDAMIEN\nEXPLOTACION DE MINAS Y CANTERAS\nINDUSTRIAS MANUFACTURERAS\nSERVICIOS COMUNALES, SOCIALES Y PERSONALES\nTRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2554930-b7fa-4403-8b54-e3a9e96fad3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=economic_subactivity_id",
+      "targets": [
+        ["id=economic_subactivity_id", "id"],
+        ["name=juridical_person[economic_subactivity_id]", "name"],
+        ["css=#economic_subactivity_id", "css:finder"],
+        ["xpath=//select[@id='economic_subactivity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[7]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nCONSTRUCCION (CONSTRUCCION PESADA Y DE EDIFICIOS, REFORMA O REPARACION, PRESTACIONES RELACIONADAS CON LA CONSTRUCCION)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b65fcbdf-0f93-4b32-b5bc-9cfbffb15e1c",
+      "comment": "",
+      "command": "select",
+      "target": "id=economic_subactivity_id",
+      "targets": [],
+      "value": "label=CONSTRUCCION (CONSTRUCCION PESADA Y DE EDIFICIOS, REFORMA O REPARACION, PRESTACIONES RELACIONADAS CON LA CONSTRUCCION)"
+    }, {
+      "id": "b9335e36-8f10-4717-bdee-22ddbf12f5b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=economic_subactivity_id",
+      "targets": [
+        ["id=economic_subactivity_id", "id"],
+        ["name=juridical_person[economic_subactivity_id]", "name"],
+        ["css=#economic_subactivity_id", "css:finder"],
+        ["xpath=//select[@id='economic_subactivity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[7]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nCONSTRUCCION (CONSTRUCCION PESADA Y DE EDIFICIOS, REFORMA O REPARACION, PRESTACIONES RELACIONADAS CON LA CONSTRUCCION)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a37156d6-0d9a-464f-89bb-11805a7b284a",
+      "comment": "",
+      "command": "click",
+      "target": "id=specific_activity_id",
+      "targets": [
+        ["id=specific_activity_id", "id"],
+        ["name=juridical_person[specific_activity_id]", "name"],
+        ["css=#specific_activity_id", "css:finder"],
+        ["xpath=//select[@id='specific_activity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[8]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nCONSTRUCCION SECTOR PRIVADO\nCONSTRUCCION SECTOR PUBLICO Y/O GOBIERNO\nCONTRATISTAS\nFABRICANTES DE MATERIALES DE CONSTRUCCION')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d184b0-c6cd-45c7-bc00-79547cd77000",
+      "comment": "",
+      "command": "select",
+      "target": "id=specific_activity_id",
+      "targets": [],
+      "value": "label=CONSTRUCCION SECTOR PUBLICO Y/O GOBIERNO"
+    }, {
+      "id": "f8a45006-647d-4a1b-aabf-6eca10183e03",
+      "comment": "",
+      "command": "click",
+      "target": "id=specific_activity_id",
+      "targets": [
+        ["id=specific_activity_id", "id"],
+        ["name=juridical_person[specific_activity_id]", "name"],
+        ["css=#specific_activity_id", "css:finder"],
+        ["xpath=//select[@id='specific_activity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[8]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nCONSTRUCCION SECTOR PRIVADO\nCONSTRUCCION SECTOR PUBLICO Y/O GOBIERNO\nCONTRATISTAS\nFABRICANTES DE MATERIALES DE CONSTRUCCION')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "073f8d58-0668-4baa-8082-122b615e7744",
+      "comment": "",
+      "command": "click",
+      "target": "id=specific_subactivity_id",
+      "targets": [
+        ["id=specific_subactivity_id", "id"],
+        ["name=juridical_person[specific_subactivity_id]", "name"],
+        ["css=#specific_subactivity_id", "css:finder"],
+        ["xpath=//select[@id='specific_subactivity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[8]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nACTIVIDADES DE APOYO PARA LA EXTRACCION DE PETROLEO Y GAS NATURAL - SECTOR PUBLICO IND. PETROLERA\nCONSTRUCCION DE CARRETERAS Y VIAS DE FERROCARRIL - CARRETERAS Y LINEAS DE FERROCARRIL\nCONSTRUCCION DE PROYECTOS DE SERVICIO PUBLICO - SECTOR PUBLICO O GOBIERNO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7b7df2e-589f-42ab-aaae-9bd0ffe3c9c0",
+      "comment": "",
+      "command": "select",
+      "target": "id=specific_subactivity_id",
+      "targets": [],
+      "value": "label=CONSTRUCCION DE CARRETERAS Y VIAS DE FERROCARRIL - CARRETERAS Y LINEAS DE FERROCARRIL"
+    }, {
+      "id": "d53002c1-5947-441f-a5e9-9aeee732561d",
+      "comment": "",
+      "command": "click",
+      "target": "id=specific_subactivity_id",
+      "targets": [
+        ["id=specific_subactivity_id", "id"],
+        ["name=juridical_person[specific_subactivity_id]", "name"],
+        ["css=#specific_subactivity_id", "css:finder"],
+        ["xpath=//select[@id='specific_subactivity_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[8]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nACTIVIDADES DE APOYO PARA LA EXTRACCION DE PETROLEO Y GAS NATURAL - SECTOR PUBLICO IND. PETROLERA\nCONSTRUCCION DE CARRETERAS Y VIAS DE FERROCARRIL - CARRETERAS Y LINEAS DE FERROCARRIL\nCONSTRUCCION DE PROYECTOS DE SERVICIO PUBLICO - SECTOR PUBLICO O GOBIERNO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b1f952-319b-4b48-ad62-dcb97758a66b",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_special_category_id",
+      "targets": [
+        ["id=juridical_person_val_special_category_id", "id"],
+        ["name=juridical_person[val_special_category_id]", "name"],
+        ["css=#juridical_person_val_special_category_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_special_category_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[9]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fcf447d-1812-4c48-8d3b-e3860526b9a7",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_val_special_category_id",
+      "targets": [],
+      "value": "label=NO APLICA"
+    }, {
+      "id": "fa20ce7a-1327-45f2-98f6-4c1074229369",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_val_special_category_id",
+      "targets": [
+        ["id=juridical_person_val_special_category_id", "id"],
+        ["name=juridical_person[val_special_category_id]", "name"],
+        ["css=#juridical_person_val_special_category_id", "css:finder"],
+        ["xpath=//select[@id='juridical_person_val_special_category_id']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[9]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd230649-18b6-4b05-bc19-2545a93b734d",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_registration_name",
+      "targets": [
+        ["id=juridical_person_registration_name", "id"],
+        ["name=juridical_person[registration_name]", "name"],
+        ["css=#juridical_person_registration_name", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_name']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[10]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8a741c-b68d-47de-8720-67595bdf8237",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_registration_name",
+      "targets": [
+        ["id=juridical_person_registration_name", "id"],
+        ["name=juridical_person[registration_name]", "name"],
+        ["css=#juridical_person_registration_name", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_name']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[10]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/input", "xpath:position"]
+      ],
+      "value": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+    }, {
+      "id": "e680bce6-bdae-4235-bf9a-51609df614c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_registration_number",
+      "targets": [
+        ["id=juridical_person_registration_number", "id"],
+        ["name=juridical_person[registration_number]", "name"],
+        ["css=#juridical_person_registration_number", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_number']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[10]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "203993939393939"
+    }, {
+      "id": "f242ddf5-5a0d-4095-91d2-d038fda12cea",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_registration_tome",
+      "targets": [
+        ["id=juridical_person_registration_tome", "id"],
+        ["name=juridical_person[registration_tome]", "name"],
+        ["css=#juridical_person_registration_tome", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_tome']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": "293993939393993"
+    }, {
+      "id": "39ce18e8-740a-483f-8a51-d9460fc6e429",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_registration_folio_numbering",
+      "targets": [
+        ["id=juridical_person_registration_folio_numbering", "id"],
+        ["name=juridical_person[registration_folio_numbering]", "name"],
+        ["css=#juridical_person_registration_folio_numbering", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_folio_numbering']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[11]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "929929292992929"
+    }, {
+      "id": "6c4439ec-e86c-4b37-9656-e21c7322bbc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_registration_date",
+      "targets": [
+        ["id=juridical_person_registration_date", "id"],
+        ["name=juridical_person[registration_date]", "name"],
+        ["css=#juridical_person_registration_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[12]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9dfd30-72b1-459b-a257-cbb2255eecdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-prev",
+      "targets": [
+        ["css=.ui-datepicker-prev", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dccc0e2f-7e50-4373-bc1c-f1abef0d76f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e30ede1-51fa-4219-87de-8e7e5d2f30fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_registration_expiration_date",
+      "targets": [
+        ["id=juridical_person_registration_expiration_date", "id"],
+        ["name=juridical_person[registration_expiration_date]", "name"],
+        ["css=#juridical_person_registration_expiration_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_registration_expiration_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[12]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2544038-94bf-4a6d-94b0-bba5e447b2f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "163b328e-a849-47df-ab27-c37406c10efc",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "868ce01c-e109-4ea2-a7ba-9dedf1e92048",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/input", "xpath:position"]
+      ],
+      "value": "23333333333333333333"
+    }, {
+      "id": "4445050a-b383-4449-8521-b9510edb7657",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_is_public_entity",
+      "targets": [
+        ["id=juridical_person_is_public_entity", "id"],
+        ["name=juridical_person[is_public_entity]", "name"],
+        ["css=#juridical_person_is_public_entity", "css:finder"],
+        ["xpath=//select[@id='juridical_person_is_public_entity']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[14]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nSI\nNO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2df50a29-5d50-437d-964f-ce9817e1f8c5",
+      "comment": "",
+      "command": "select",
+      "target": "id=juridical_person_is_public_entity",
+      "targets": [],
+      "value": "label=SI"
+    }, {
+      "id": "cd818f55-b617-46f7-989c-98e4b427f5b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_is_public_entity",
+      "targets": [
+        ["id=juridical_person_is_public_entity", "id"],
+        ["name=juridical_person[is_public_entity]", "name"],
+        ["css=#juridical_person_is_public_entity", "css:finder"],
+        ["xpath=//select[@id='juridical_person_is_public_entity']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[14]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'- Seleccione -\nSI\nNO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6829d5-8bc4-428c-a2f4-a2f69461a0e7",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_juridical_person_60']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ae9cc4-a698-4b86-bc9d-5a54105eb071",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_identification_expedition_date",
+      "targets": [
+        ["id=juridical_person_identification_expedition_date", "id"],
+        ["name=juridical_person[identification_expedition_date]", "name"],
+        ["css=#juridical_person_identification_expedition_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_identification_expedition_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1976e2-07b7-4b64-9d9d-147a30e18151",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-today",
+      "targets": [
+        ["css=.ui-datepicker-today", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec8e18e-259f-474f-ad3c-ef2cbce7dd22",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_identification_expiration_date",
+      "targets": [
+        ["id=juridical_person_identification_expiration_date", "id"],
+        ["name=juridical_person[identification_expiration_date]", "name"],
+        ["css=#juridical_person_identification_expiration_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_identification_expiration_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a71094-f33c-4e89-89bc-16a3131e62b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-prev",
+      "targets": [
+        ["css=.ui-datepicker-prev", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d61b59-a87b-4d1d-b901-38766d0c1cee",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5365bec4-72bc-4420-a135-88f11756db4f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "233.25,21.71875"
+    }, {
+      "id": "915abf43-eadd-4912-9107-fa4d45791558",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "233.25,21.71875"
+    }, {
+      "id": "d416c034-4ecf-4964-bc87-5afd712f4433",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "233.25,21.71875"
+    }, {
+      "id": "3b7e9175-064c-4d78-ad49-3808a8cfc139",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f64dcf1d-2b93-4a2c-baa3-fa713add733b",
+      "comment": "",
+      "command": "type",
+      "target": "id=juridical_person_capital_social",
+      "targets": [
+        ["id=juridical_person_capital_social", "id"],
+        ["name=juridical_person[capital_social]", "name"],
+        ["css=#juridical_person_capital_social", "css:finder"],
+        ["xpath=//input[@id='juridical_person_capital_social']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[13]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "00000000000000000.00"
+    }, {
+      "id": "31581223-fa95-4d84-bbd0-e361f516e6a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit_juridical_person_60']/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14d11ac-56d5-4351-b955-8b0fc090fddb",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f80708ff-8b38-42a1-9b7a-84398ff195c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=juridical_person_identification_expedition_date",
+      "targets": [
+        ["id=juridical_person_identification_expedition_date", "id"],
+        ["name=juridical_person[identification_expedition_date]", "name"],
+        ["css=#juridical_person_identification_expedition_date", "css:finder"],
+        ["xpath=//input[@id='juridical_person_identification_expedition_date']", "xpath:attributes"],
+        ["xpath=//div[@id='informacion_personal']/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0b794f4d-5b88-46f3-9b0b-02a0418d22d9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3cfbf6ff-e3fd-4b43-b2b6-bd18a8251c95"]
+  }],
+  "urls": ["https://autogestion-bancamiga-test.herokuapp.com/"],
+  "plugins": []
+}
