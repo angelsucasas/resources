@@ -1,6 +1,4 @@
-Plan de Pruebas ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/chrome-v13.0-yellow) ![npm](https://img.shields.io/badge/jest-v26.1-orange) 
-
-![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
+### Plan de Pruebas ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/chrome-v13.0-yellow) ![npm](https://img.shields.io/badge/jest-v26.1-orange) 
   
 ## ¿Cómo empezar?
 
@@ -17,9 +15,6 @@ $ npm run test
 ```
 
 Cada prueba es ejecutada en una ventana diferente del navegador Google Chrome. Este navegador le indicará que está siendo utilizado por un software de pruebas.
-
-![image](https://user-images.githubusercontent.com/44983658/88110380-1e1eb900-cb7a-11ea-8300-4ffd330c8459.png)
-
 
 Al finalizar la ejecución de las pruebas, podrá ver algo así:
 
